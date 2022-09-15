@@ -1,36 +1,52 @@
 /* CHANNEL SETTINGS */
 
 // PERMISSIONS
+.group-LWHoGI {
+  border: 1px solid hsla(0, 0%, 100%, 0.07);
+}
 .item-4m-12I {
-	background-color: hsla(0, 0%, 0%, .4);
-	border-color: hsla(0, 0%, 100%, .07);
-	cursor: pointer;
-	&.selected-3jieYB {
-		&.allow-1h61-Z {
-			background-color: rgb(67, 181, 129);
-			border-color: rgb(67, 181, 129);
-		}
-		&.deny-1GO6vI {
-			background-color: rgb(240, 71, 71);
-			border-color: rgb(240, 71, 71);
-		}
-		&.passthrough--fbdFR {
-			background-color: rgb(250, 166, 26);
-			border-color: rgb(250, 166, 26);
-		}
-	}
+  background-color: hsla(0, 0%, 0%, 0.4);
+  border-color: hsla(0, 0%, 100%, 0.07);
+  cursor: pointer;
+  &.selected-3jieYB {
+    &.deny-1GO6vI {
+      background-color: rgba($color: #f04747, $alpha: 0.6);
+      border-color: #f04747;
+    }
+    &.passthrough--fbdFR {
+      background-color: rgba($color: #faa61a, $alpha: 0.6);
+      border-color: #faa61a;
+    }
+    &.allow-1h61-Z {
+      background-color: rgba($color: #43b581, $alpha: 0.6);
+      border-color: #43b581;
+    }
+  }
 }
 .settingCard-xZSDjS {
-	background-color: rgba(0, 0, 0, 0.4);
-	&.active-3EK-ed {
-		background-color: rgba(0, 0, 0, 0.4);
-	}
+  background-color: rgba(0, 0, 0, 0.4);
+  &.active-3EK-ed {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 }
 .cardFolder-3H4uH4 {
-	background-color: transparent;
+  background-color: transparent;
 }
 
-//Add role popout
-.container-1S70rv .header-3i_Csh{
-	background-color: rgba(0,0,0,0.7);
+%integrationsIconWrapper {
+  background-color: hsla(0, 0%, 0%, 0.4);
+}
+
+// FORUMS
+.staticToolbar-x12NJC {
+	background: transparent;
+}
+.addTags-2AjBTc {
+	background: $main-color;
+}
+.container-16urgA {
+	border-color: $main-color;
+}
+.placeholderLine-86Fsd9, .placeholderMedia-34JHvE, .reaction-BL6n45 {
+  background-color: hsla(0, 0%, 100%, .15)
 }
