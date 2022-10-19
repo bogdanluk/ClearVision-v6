@@ -17,7 +17,12 @@
 %emojiPicker {
   background-color: rgba(0, 0, 0, 0.8);
   min-width: 430px;
+  border-radius: 0;
 }
+%emojiPickerHeader {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 // SEARCH BAR
 %emojiPickerSearchBar {
   background-color: hsla(0, 0%, 100%, 0.07);

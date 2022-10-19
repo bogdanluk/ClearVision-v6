@@ -663,6 +663,9 @@
 .messagesErrorBar-1IQ1rH {
   @extend %messagesErrorBar !optional;
 }
+.bar-2qGj24 {
+  @extend %barBrand !optional;
+}
 .wrapper-1gVUIN {
   @extend %callWrapper !optional;
 }
@@ -2745,6 +2748,9 @@ pre {
 .keybindShortcut-3zF1P9 {
   @extend %keybindShortcut !optional;
 }
+.key-N5VmHN {
+  @extend %keybindShortcutKey !optional;
+}
 .inputWrapper-1YNMmM {
   @extend %inputWrapper !optional;
 }
@@ -2826,28 +2832,22 @@ pre {
 .note-3M15gE {
   @extend %userModalNote !optional;
 }
-.connectedAccounts-fvr7-7 {
+.connectedAccounts-2R5M4w {
   @extend %userModalConnectedAccounts !optional;
 }
-.connectedAccount-2PrNaX {
-  @extend %userModalConnectedAccount !optional;
-}
-.connectedAccountContainer-SlCC-S {
+.connectedAccountContainer-3aLMHJ {
   @extend %userModalConnectedAccountContainer !optional;
 }
-.connectedAccountIcon-2vls0t {
+.connectedAccountIcon-3FdW8x {
   @extend %userModalConnectedAccountIcon !optional;
 }
-.connectedAccountNameInner-t24B11 {
-  @extend %userModalConnectedAccountNameInner !optional;
-}
-.connectedAccountName-j0meX4 {
+.connectedAccountName-2QfG-N {
   @extend %userModalConnectedAccountName !optional;
 }
-.connectedAccountVerifiedIcon-Kw2Frj {
+.connectedAccountVerifiedIcon-3EPFPC {
   @extend %userModalConnectedAccountVerifiedIcon !optional;
 }
-.connectedAccountOpenIcon-QgWKH8 {
+.connectedAccountOpenIcon-3i81Tz {
   @extend %userModalConnectedAccountOpenIcon !optional;
 }
 .userProfileActivity-sal5no {
@@ -3077,6 +3077,9 @@ pre {
 }
 .emojiPicker-6YCk8a {
   @extend %emojiPicker !optional;
+}
+.header-11eigE {
+  @extend %emojiPickerHeader !optional;
 }
 .searchBar-2M9mRP {
   @extend %emojiPickerSearchBar !optional;
@@ -3721,6 +3724,9 @@ pre {
 .side-2ur1Qk {
   @extend %settingsSide !optional;
 }
+.selectedBackground-1t6xXq {
+  @extend %settingsSidebarScrollerSelectedBackground !optional;
+}
 .socialLinks-3ywLUf {
   @extend %settingsSocialLinks !optional;
 }
@@ -3753,6 +3759,9 @@ pre {
 }
 .brand-3g5E0C {
   @extend %guildSettingsRoleHeaderTabBrand !optional;
+}
+.previewContainer-1GxmBJ {
+  @extend %guildSettingsRoleIconPreview !optional;
 }
 .activityUserPopout-2MzGCj,
 .activityProfile-1712BN {
@@ -4513,6 +4522,9 @@ pre {
 }
 .mainCard-3KBsBI {
   @extend %forumCard !optional;
+}
+.isOpen-2OXbFs {
+  @extend %forumCardIsOpen !optional;
 }
 .channelName-1On3TJ {
   @extend %forumCardName !optional;
