@@ -143,3 +143,11 @@
 %emptyActiveNowText {
   color: hsla(0, 0%, 100%, 0.3);
 }
+
+// DM USER PROFILE
+%userProfileOuterUnthemed {
+	background-color: hsla(0, 0%, 0%, .4);
+  .userPanelInnerThemed-3YO1BB{
+    background: transparent;
+  }
+}

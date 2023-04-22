@@ -27,6 +27,7 @@ $version: '6.3.0';
 @import 'src/app/titlebar';
 
 // CHANNEL
+@import 'src/channels/browseChannels';
 @import 'src/channels/channels';
 @import 'src/channels/category';
 @import 'src/channels/channelNotice';
@@ -36,13 +37,13 @@ $version: '6.3.0';
 
 // CHAT
 @import 'src/chat/chat';
-
 @import 'src/chat/bars';
 @import 'src/chat/call';
 @import 'src/chat/divider';
 @import 'src/chat/stageCall';
 @import 'src/chat/textArea';
 @import 'src/chat/textAreaAutoComplete';
+@import 'src/chat/treads';
 @import 'src/chat/welcomeMessage';
 
 // GENERAL ELEMENTS
@@ -73,6 +74,7 @@ $version: '6.3.0';
 @import 'src/home/activity';
 @import 'src/home/friends';
 @import 'src/home/library';
+@import 'src/home/requests';
 
 // MEMBERS
 @import 'src/members/members';
@@ -149,9 +151,6 @@ $version: '6.3.0';
 @import 'src/settings/serverSettings';
 @import 'src/settings/sidebar';
 @import 'src/settings/userSettings';
-
-// THREADS
-@import 'src/threads/createThread';
 
 // USERS
 @import 'src/users/activity';

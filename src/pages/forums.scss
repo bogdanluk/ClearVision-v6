@@ -1,3 +1,4 @@
+/* FORUMS */
 %themeDark %forumContainer{
     background: rgba(0, 0, 0, calc(#{cv('bg.app.shading')} * 0.3));
 }
@@ -40,7 +41,7 @@
 	color: #fff !important;
 }
 %forumTag {
-	background: transparent;
+	background: hsla(0, 0%, 0%, 0.6);
 	border: 2px solid $main-color;
     &%forumTagClickable:not(%forumTagDisabled):hover {
         background: transparent;
@@ -89,11 +90,22 @@
 %forumTagCount {
 	background-color: var(--main-color);
 }
+%forumSortDropdown {
+	background-color: var(--main-color);
+    > *,
+    %forumSortDropdownText {
+        color: #fff !important;
+    }
+}
 %forumTagButton {
 	background-color: rgba(0,0,0,.3);
     %forumTagButtonInner {
         color: #fff;
     }
+}
+
+%themeDark %forumContentFooter {
+    background: transparent;
 }
 
 %forumRules {

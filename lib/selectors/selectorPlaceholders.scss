@@ -20,9 +20,6 @@
 .theme-light {
   @extend %themeLight !optional;
 }
-.fakeLink-2FvUR7 {
-  @extend %fakeLink !optional;
-}
 .app-3xd6d0 {
   @extend %app !optional;
 }
@@ -483,6 +480,9 @@
 .panels-3wFtMD {
   @extend %panels !optional;
 }
+.panel-2ZFCRb {
+  @extend %panel !optional;
+}
 .button-12Fmur {
   @extend %panelButton !optional;
 }
@@ -597,7 +597,7 @@
 .channel-1Shao0 {
   @extend %privateChannel !optional;
 }
-.interactive-1vLZ_I {
+.interactive-iyXY_x {
   @extend %privateChannelInteractive !optional;
 }
 .interactiveSelected-29CP8y {
@@ -663,7 +663,7 @@
 .messagesErrorBar-1IQ1rH {
   @extend %messagesErrorBar !optional;
 }
-.bar-2qGj24 {
+.bar-wDIGjg {
   @extend %barBrand !optional;
 }
 .wrapper-1gVUIN {
@@ -763,6 +763,9 @@
 }
 .actionRed-gYn8D3 {
   @extend %chatGatedActionRed !optional;
+}
+.resizeHandle-PBRzPC {
+  @extend %chatResize !optional;
 }
 .emptyChannelIcon-1YdEz2 {
   @extend %emptyChannelIcon !optional;
@@ -945,9 +948,6 @@
 .textAreaSlate-9-y-k2 {
   @extend %slateTextArea !optional;
 }
-.root-3PVcjb {
-  @extend %channelTextAreaUpsell !optional;
-}
 .button-2fCJ0o {
   @extend %channelTextAreaButton !optional;
 }
@@ -968,6 +968,9 @@
 }
 .upload-vLbqu- {
   @extend %channelTextAreaUpload !optional;
+}
+.fakeLink-1wGafz {
+  @extend %fakeLink !optional;
 }
 .operations-3q3u6E {
   @extend %operations !optional;
@@ -1119,134 +1122,50 @@
 .hasHover-3X1-zV {
   @extend %buttonHasHover !optional;
 }
-.lookFilled-yCfaCM {
+.lookFilled-1H2Jvj {
   @extend %buttonFilled !optional;
 }
-.buttonColor-1u-3JF {
-  @extend %buttonPreview !optional;
-}
-.lookOutlined-3yKVGo {
+.lookOutlined-3RTC7c {
   @extend %buttonOutlined !optional;
 }
-.lookInverted-2mDUMi {
+.lookInverted-2GrLaB {
   @extend %buttonInverted !optional;
 }
-.lookLink-15mFoz {
+.lookLink-13iF2K {
   @extend %buttonLink !optional;
 }
 .lookBlank-21BCro {
   @extend %buttonBlank !optional;
 }
-.colorBrand-3pXr91 {
-  @extend %buttonBrand !optional;
+.colorBrand-2M3O3N {
+  @extend %buttonColorBrand !optional;
 }
-.colorBrandNew-g5lmBU {
-  @extend %buttonBrandNew !optional;
+.colorBrandNew-abZT3v {
+  @extend %buttonColorBrandNew !optional;
 }
-.colorPrimary-2AuQVo {
-  @extend %buttonPrimary !optional;
+.colorPrimary-2-Lusz {
+  @extend %buttonColorPrimary !optional;
 }
 .colorWhite-1H92hK {
-  @extend %buttonWhite !optional;
+  @extend %buttonColorWhite !optional;
 }
-.colorGreen-3y-Z79 {
-  @extend %buttonGreen !optional;
+.colorGreen-jIPCAS {
+  @extend %buttonColorGreen !optional;
 }
-.colorRed-rQXKgM {
-  @extend %buttonRed !optional;
+.colorRed-2VFhM4 {
+  @extend %buttonColorRed !optional;
 }
 .colorGrey-2DXtkV {
-  @extend %buttonGrey !optional;
+  @extend %buttonColorGrey !optional;
 }
-.colorLink-1Md3RZ {
+.colorLink-34zig_ {
   @extend %buttonColorLink !optional;
 }
-.contents-3ca1mk {
+.colorYellow-_9KFXL {
+  @extend %buttonColorYellow !optional;
+}
+.contents-3NembX {
   @extend %buttonContents !optional;
-}
-.lookFilled-yCfaCM.colorBrand-I6CyqQ {
-  @extend %buttonFilledBrand !optional;
-}
-.lookFilled-yCfaCM.colorBrandNew-g5lmBU {
-  @extend %buttonFilledBrandNew !optional;
-}
-.lookFilled-yCfaCM.colorBrandNew-2-gGsS {
-  @extend %buttonFilledBrandNew2 !optional;
-}
-.lookFilled-yCfaCM.colorPrimary-2AuQVo {
-  @extend %buttonFilledPrimary !optional;
-}
-.lookFilled-yCfaCM.colorWhite-1H92hK {
-  @extend %buttonFilledWhite !optional;
-}
-.lookFilled-yCfaCM.colorGreen-3y-Z79 {
-  @extend %buttonFilledGreen !optional;
-}
-.lookFilled-yCfaCM.colorRed-rQXKgM {
-  @extend %buttonFilledRed !optional;
-}
-.lookFilled-yCfaCM.colorGrey-2iAG-B {
-  @extend %buttonFilledGrey !optional;
-}
-.lookOutlined-3yKVGo.colorBrand-I6CyqQ {
-  @extend %buttonOutlinedBrand !optional;
-}
-.lookOutlined-3yKVGo.colorPrimary-2AuQVo {
-  @extend %buttonOutlinedPrimary !optional;
-}
-.lookOutlined-3yKVGo.colorWhite-1H92hK {
-  @extend %buttonOutlinedWhite !optional;
-}
-.lookOutlined-3yKVGo.colorGreen-3y-Z79 {
-  @extend %buttonOutlinedGreen !optional;
-}
-.lookOutlined-3yKVGo.colorRed-rQXKgM {
-  @extend %buttonOutlinedRed !optional;
-}
-.lookOutlined-3yKVGo.colorGrey-2DXtkV {
-  @extend %buttonOutlinedGrey !optional;
-}
-.lookInverted-2mDUMi.colorBrand-I6CyqQ {
-  @extend %buttonInvertedBrand !optional;
-}
-.lookInverted-2mDUMi.colorPrimary-2AuQVo {
-  @extend %buttonInvertedPrimary !optional;
-}
-.lookInverted-2mDUMi.colorWhite-1H92hK {
-  @extend %buttonInvertedWhite !optional;
-}
-.lookInverted-2mDUMi.colorGreen-3y-Z79 {
-  @extend %buttonInvertedGreen !optional;
-}
-.lookInverted-2mDUMicolorRed-rQXKgM {
-  @extend %buttonInvertedRed !optional;
-}
-.lookInverted-2mDUMi.colorGrey-2DXtkV {
-  @extend %buttonInvertedGrey !optional;
-}
-.lookLink-15mFoz.colorBrand-I6CyqQ {
-  @extend %buttonLinkBrand !optional;
-}
-.lookLink-15mFoz.colorPrimary-2AuQVo {
-  @extend %buttonLinkPrimary !optional;
-}
-.lookLink-15mFoz.colorWhite-1H92hK {
-  @extend %buttonLinkWhite !optional;
-}
-.lookLink-15mFoz.colorGreen-3y-Z79 {
-  @extend %buttonLinkGreen !optional;
-}
-.lookLink-15mFoz.colorRed-rQXKgM {
-  @extend %buttonLinkRed !optional;
-}
-.lookLink-15mFoz.colorGrey-2DXtkV {
-  @extend %buttonLinkGrey !optional;
-}
-.lookLink-15mFoz.colorLink-1Md3RZ {
-  @extend %buttonLinkLink !optional;
-}
-.lookBlank-21BCro.colorBrand-I6CyqQ {
-  @extend %buttonBlankBrand !optional;
 }
 .button-1_oXub {
   @extend %buttonCircle !optional;
@@ -1254,14 +1173,14 @@
 .disabled-184-il {
   @extend %buttonCircleDisabled !optional;
 }
-.checkbox-f1HnKB {
+.checkboxWrapper-3zdYym {
+  @extend %checkboxWrapper !optional;
+}
+.checkbox-1LuCGM {
   @extend %checkbox !optional;
 }
-.checked-1pZh2h {
+.checked-22NTbO {
   @extend %checkboxChecked !optional;
-}
-.checkboxWrapper-2fDzaA {
-  @extend %checkboxWrapper !optional;
 }
 .flex-3BkGQD {
   @extend %flex !optional;
@@ -1382,44 +1301,53 @@
 .scrollerBase-_bVAAt {
   @extend %scroller !optional;
 }
-.slider-1NC-Gf {
+.slider-1mmyV6 {
   @extend %slider !optional;
 }
-.mini-2qY9iv {
+.mini-28oMa3 {
   @extend %sliderMini !optional;
 }
 .input-1hjJtk {
   @extend %sliderInput !optional;
 }
-.track-1BI4CA {
+.track-3I-RwH {
   @extend %sliderTrack !optional;
 }
-.bar-1Bhnl9 {
+.bar-2H7Q9u {
   @extend %sliderBar !optional;
 }
-.barFill-2Bh7CX {
+.barFill-3RgCsY {
   @extend %sliderBarFill !optional;
 }
-.grabber-2GQyvM {
+.grabber-3R-Rx9 {
   @extend %sliderGrabber !optional;
 }
-.loadingPopout-1feYe_ {
+.loadingPopout-1tyQMM {
   @extend %spinnerPopout !optional;
 }
-.spinner-2RT7ZC {
+.spinner-2ID8f1 {
   @extend %spinner !optional;
 }
-.inner-26JK4f {
+.inner-MGEKw {
   @extend %spinnerInner !optional;
 }
-.spinnerItem-2HfQC8 {
-  @extend %spinnerItem !optional;
+.wanderingCubes-2A046F {
+  @extend %spinnerWanderingCubes !optional;
 }
-.wanderingCubesItem-3Us-UG {
+.item-2VgEex {
   @extend %spinnerWanderingCubesItem !optional;
 }
-.loadingMore-sPqUXZ {
-  @extend %loadingMore !optional;
+.spinningCircle-3aZig- {
+  @extend %spinnerCircle !optional;
+}
+.spinningCircleInner-YCEeSc {
+  @extend %spinnerCircleInner !optional;
+}
+.path-_o_4bT {
+  @extend %spinnerCirclePath !optional;
+}
+.path3-3TAamH {
+  @extend %spinnerCirclePath3 !optional;
 }
 .pulsingEllipsis-10G8Z6 {
   @extend %spinnerPulsingEllipsis !optional;
@@ -1430,70 +1358,64 @@
 .control-1fl03- {
   @extend %switch !optional;
 }
-.container-2nx-BQ {
+.container-1QtPKm {
   @extend %switchContainer !optional;
 }
-.slider-32CRPX {
+.checked-16gMAN {
+  @extend %switchChecked !optional;
+}
+.slider-HJFN2i {
   @extend %switchSlider !optional;
 }
-.input-2XRLou {
+.input-125oad {
   @extend %switchCheckbox !optional;
 }
-.item-3XjbnG {
+.item-2GWPIy {
   @extend %tabBarItem !optional;
 }
-.selected-g-kMVV {
+.selected-1sf9UK {
   @extend %tabBarItemSelected !optional;
 }
-.primary-3j8BhM {
-  @extend %tabBarItemPrimary !optional;
-}
-.primarySelected-3uHKZn {
-  @extend %tabBarItemPrimarySelected !optional;
-}
-.disabled-1nofHP {
+.disabled-2G98Nl {
   @extend %tabBarItemDisabled !optional;
 }
-.header-2Kx1US {
+.header-2F5_LB {
   @extend %tabBarHeader !optional;
 }
-.separator-2wx7h6 {
+.separator-2N511j {
   @extend %tabBarSeparator !optional;
 }
-.tabBar-1E2ExX {
+.tabBar-3DfKkN {
   @extend %headerBarTabBar !optional;
 }
 .premiumLabel-3HPvdB {
   @extend %premiumLabel !optional;
 }
-.serverBoostTabItem-3QwA3W {
-  @extend %serverBoostTabItem !optional;
-}
 .icon-3FU6Ir {
   @extend %serverBoostIcon !optional;
 }
-.tooltip-14MtrL {
+.tooltip-33Jwqe {
   @extend %tooltip !optional;
 }
-.tooltipPointer-3L49xb {
+.tooltipPointer-sMBQqe {
   @extend %tooltipPointer !optional;
 }
-.tooltipTop-1wv5UJ {
+.tooltipTop-CgYHUZ {
   @extend %tooltipTop !optional;
 }
-.tooltipBottom-2WzfVx {
+.tooltipBottom-1itlv3 {
   @extend %tooltipBottom !optional;
 }
 .tooltipLeft-3H43DQ {
   @extend %tooltipLeft !optional;
 }
-.tooltipRight-2TSb42 {
+.tooltipRight-1UPNyA {
   @extend %tooltipRight !optional;
 }
-.tooltipContent-Nejnvh {
+.tooltipContent-38tm3I {
   @extend %tooltipContent !optional;
 }
-.tooltipPrimary-3qLMbS {
+.tooltipPrimary-2466a2 {
   @extend %tooltipPrimary !optional;
 }
 .tooltipBrand-20XsMA {
@@ -2469,10 +2391,10 @@ pre {
 .button-2b4VEQ {
   @extend %inviteButton !optional;
 }
-.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+.lookFilled-1H2Jvj.colorGreen-jIPCAS {
   @extend %inviteButtonJoin !optional;
 }
-.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
   @extend %inviteButtonExpired !optional;
 }
 .wrapper-1FP9YQ {
@@ -2655,10 +2577,10 @@ pre {
 .iconMention-3WxjBe {
   @extend %mentionIcon !optional;
 }
-.anchor-1MIwyf {
+.anchor-1X4H4q {
   @extend %anchor !optional;
 }
-.anchorUnderlineOnHover-2qPutX {
+.anchorUnderlineOnHover-wiZFZ_ {
   @extend %anchorUnderlineOnHover !optional;
 }
 .buttonContainer-1502pf {
@@ -2745,10 +2667,10 @@ pre {
 .keyboardShortcutsModal-2CRmCm {
   @extend %keyboardShortcutsModal !optional;
 }
-.keybindShortcut-3zF1P9 {
-  @extend %keybindShortcut !optional;
+.combo-3PNrpQ {
+  @extend %keybindCombo !optional;
 }
-.key-N5VmHN {
+.key-RP8gj3 {
   @extend %keybindShortcutKey !optional;
 }
 .inputWrapper-1YNMmM {
@@ -2775,41 +2697,41 @@ pre {
 .multiInputField-1zyopx {
   @extend %multiInputField !optional;
 }
-.modal-1Kmy_E {
+.modal-3Hrb0S {
   @extend %modal !optional;
 }
-.root-g14mjS {
+.root-1CAIjD {
   @extend %modalRoot !optional;
 }
 .header-2w6VV8 {
   @extend %modalHeader !optional;
 }
-.footer-31IekZ {
+.footer-IubaaS {
   @extend %modalFooter !optional;
 }
-.userProfileModalOuter-1FYL8T {
+.userProfileModalOuter-2wdWjU {
   @extend %userModalOuter !optional;
 }
-.userProfileModalInner-3fh3QA {
+.userProfileModalInner-3dx9L9 {
   @extend %userModalInner !optional;
 }
-.profileBanner-2zIsK7 {
+.profileBanner-1owKI5 {
   @extend %userModalProfileBanner !optional;
 }
-.badgeList-2pMvZX {
+.badgeList-2aoHPw {
   @extend %userModalBadgeList !optional;
 }
-.userProfileModalOverlayBackground-8p3-eU {
+.overlayBackground-2aa7wt {
   @extend %userModalOverlayBackground !optional;
-}
-.tabBarContainer-2UG0vy {
-  @extend %userModalTabBarContainer !optional;
-}
-.tabBar-2StdUa {
-  @extend %userModalTabBar !optional;
 }
 .body-1Ukv50 {
   @extend %userModalBody !optional;
+}
+.tabBarContainer-sCZC4w {
+  @extend %userModalTabBarContainer !optional;
+}
+.tabBar-2hXqzU {
+  @extend %userModalTabBar !optional;
 }
 .userInfoSection-2u2hir {
   @extend %userModalInfoSection !optional;
@@ -3162,46 +3084,43 @@ pre {
 .footerSeparator-b6VH1V {
   @extend %groupInvitePopoutFooterSeparator !optional;
 }
-.menu-1QACrS {
+.menu-2TXYjN {
   @extend %menuPopout !optional;
 }
-.colorDefault-CDqZdO {
+.colorDefault-2_rLdz {
   @extend %menuPopoutSelected !optional;
 }
-.hideInteraction-2jPGL_ {
+.hideInteraction-1vQrZJ {
   @extend %menuPopoutHideInteraction !optional;
 }
-.item-1OdjEX {
+.item-5ApiZt {
   @extend %menuPopoutItem !optional;
 }
-.focused-3qFvc8 {
+.focused-3LIdPu {
   @extend %menuPopoutItemHover !optional;
 }
-.colorBrand-3cPPsm {
+.colorBrand-26tvUE {
   @extend %menuPopoutItemInvite !optional;
 }
-.colorDanger-3n-KnP {
-  @extend %menuPopoutItemLeave !optional;
+.colorDanger-3umuSx {
+  @extend %menuPopoutItemDanger !optional;
 }
-.separator-2zcjq8 {
+.separator-12G2Op {
   @extend %menuPopoutSeparator !optional;
 }
-.iconContainer-1-SsTR {
+.iconContainer-Ksy8Oj {
   @extend %menuPopoutIconContainer !optional;
 }
-.icon-E4cW1l {
+.icon-3XHs8t {
   @extend %menuPopoutIcon !optional;
 }
-.label-1Y-LW5 {
-  @extend %menuPopoutLabel !optional;
-}
-.checkbox-hADx5o {
+.checkbox-397WsK {
   @extend %menuPopoutCheckbox !optional;
 }
-.radioSelection-1UHp0b {
+.radioSelection-3PDNAQ {
   @extend %menuPopoutRadio !optional;
 }
-.check-3HZJs4 {
+.check-3-73a4 {
   @extend %menuPopoutCheck !optional;
 }
 .container-3cGP6G {
@@ -3457,34 +3376,34 @@ pre {
 .status-2DiCMd {
   @extend %statusPickerIcon !optional;
 }
-.userProfileOuterUnthemed-2b2rsv {
+.userProfileOuterUnthemed-11rPfA {
   @extend %userProfileOuterUnthemed !optional;
 }
-.userPopoutOuter-3AVBmJ {
+.userPopoutOuter-1OHwPL {
   @extend %userPopoutOuter !optional;
 }
-.userPopoutInner-1hXSeY {
+.userPopoutInner-nv9Y92 {
   @extend %userPopoutInner !optional;
 }
-.popoutBanner-16rVDY {
+.popoutBanner-3cqRD9 {
   @extend %userPopoutBanner !optional;
 }
-.popoutNoBannerPremium-2TQa6P {
+.popoutNoBannerPremium-25mwJy {
   @extend %userPopoutNoBannerPremium !optional;
 }
-.popoutBannerPremium-2RvDNZ {
+.popoutBannerPremium-3i5EEI {
   @extend %userPopoutBannerPremium !optional;
 }
-.profileBadges-31rDHI {
+.profileBadges-2pItdR {
   @extend %userPopoutProfileBadges !optional;
 }
-.userPopoutOverlayBackground-dKOOda {
+.userPopoutOverlayBackground-3A0Pcz {
   @extend %userPopoutOverlayBackground !optional;
 }
-.buttonColor-XIRMbp {
+.buttonColor-_0gSD_ {
   @extend %userPopoutButtonColor !optional;
 }
-.roles-3zC7MX {
+.roles-3vQPxb {
   @extend %userPopoutRoles !optional;
 }
 .note-Go5ZP2 {
@@ -3610,19 +3529,13 @@ pre {
 .imageUploaderIcon-2OHmFu {
   @extend %settingsImageUploaderIcon !optional;
 }
-.card-16VQ8C {
+.card-2guEcY {
   @extend %settingsCard !optional;
-}
-.card-2ART2V {
-  @extend %settingsLongCard !optional;
-}
-.button-1yVL_7 {
-  @extend %settingsLongCardButton !optional;
 }
 .cardWrapper-1bSePP {
   @extend %settingsCardWrapper !optional;
 }
-.colorPickerCustom-1swUKF {
+.customColorPicker-C_jddW {
   @extend %settingsColorPickerCustom !optional;
 }
 .container-20TyK0 {
@@ -3640,7 +3553,7 @@ pre {
 .sidebar-nqHbhN {
   @extend %settingsSidebar !optional;
 }
-.side-2ur1Qk {
+.side-1lrxIh {
   @extend %settingsSide !optional;
 }
 .selectedBackground-1t6xXq {
@@ -3673,10 +3586,10 @@ pre {
 .header-JUTO-g {
   @extend %guildSettingsRoleHeader !optional;
 }
-.top-K_jibn {
+.top-Ktfr_T {
   @extend %guildSettingsRoleHeaderTabTop !optional;
 }
-.brand-3g5E0C {
+.brand-2EKq3J {
   @extend %guildSettingsRoleHeaderTabBrand !optional;
 }
 .previewContainer-1GxmBJ {
@@ -3704,13 +3617,13 @@ pre {
 .timestamp-2f1NmH {
   @extend %activityTimestamp !optional;
 }
-.wrapper-1VLyxH {
+.wrapper-3Un6-K {
   @extend %avatarWrapper !optional;
 }
-.mask-1FEkla {
+.mask-1y0tyc {
   @extend %avatarMask !optional;
 }
-.avatar-b5OQ1N {
+.avatar-6qzftW {
   @extend %avatarImage !optional;
 }
 .avatar-2e8lTP {
@@ -3728,7 +3641,7 @@ pre {
 .role-2TIOKu {
   @extend %role !optional;
 }
-.roleCircle-3K9O3d {
+.roleCircle-3TFUOr {
   @extend %roleCircle !optional;
 }
 .roleRemoveIcon-387wKV {
@@ -3782,23 +3695,26 @@ pre {
 .replying-eZ7p5z {
   @extend %replyingToIndicator !optional;
 }
-.item-2idW98 {
+.item-1TA5qI {
   @extend %radioItem !optional;
 }
-.radioBar-3w9XY- {
+.disabled-WBmOu_ {
+  @extend %radioItemDisabled !optional;
+}
+.radioBar-1XgZqD {
   @extend %radioBar !optional;
 }
-.radioIconForeground-2BMavi {
+.radioIconForeground-3wH3aU {
   @extend %radioIconChecked !optional;
 }
-.radioText-3Mv1MY {
-  @extend %radioText !optional;
+.previewMessage-2g_aBv {
+  @extend %accessibilityMessagePreview !optional;
 }
-.info-2FZci4 {
-  @extend %radioInfo !optional;
+.preview-3k9WhO {
+  @extend %accesibilityMessagePreview !optional;
 }
-.userSettingsVoice-1fEtsL {
-  @extend %userSettingsVoice !optional;
+.micTest-19EtdQ {
+  @extend %micTest !optional;
 }
 .container-3NTP7o {
   @extend %micTestContainer !optional;
@@ -3815,7 +3731,7 @@ pre {
 .speaking-2Crrvt {
   @extend %inputSensitivitySpeaking !optional;
 }
-.cameraWrapper-3a7Ngv {
+.cameraWrapper-nG8dpo {
   @extend %cameraWrapper !optional;
 }
 .media-engine-video {
@@ -3830,10 +3746,10 @@ pre {
 .backgroundOptionInner-SSz19O {
   @extend %videoBgOptionInner !optional;
 }
-.none-2-_0dP {
+.none-1rXy4P {
   @extend %scrollbarNone !optional;
 }
-.thin-31rlnD {
+.thin-RnSY0a {
   @extend %scrollbarThin !optional;
 }
 .segmentContainer-2dq0ta {
@@ -3944,26 +3860,20 @@ pre {
 .selected-bLcqYK {
   @extend %categoryPillSelected !optional;
 }
-.pageControlContainer-6nt7kY {
+.pageControlContainer-1Mbe6M {
   @extend %pageControlContainer !optional;
 }
-.pageControl-1XvHg0 {
+.pageControl-1Kt_nb {
   @extend %pageControl !optional;
 }
-.pageButton-1GMGeJ {
+.pageButton-uta6J3 {
   @extend %pageButton !optional;
 }
-.activeButton-LRWFC_ {
+.activeButton-2K2Fwx {
   @extend %pageButtonActive !optional;
 }
-.pageButtonNext-2_bbdk {
-  @extend %pageButtonNext !optional;
-}
-.pageIndicator-cOEPV8 {
-  @extend %pageIndicator !optional;
-}
-.pageButtonPrev-3q9rh8 {
-  @extend %pageButtonPrev !optional;
+.endButton-pLBGXH {
+  @extend %pageButtonEnd !optional;
 }
 .disabled-29cfPA {
   @extend %pageButtonDisabled !optional;
@@ -4118,6 +4028,9 @@ pre {
 .spine-29OFwR {
   @extend %threadChannelConnector !optional;
 }
+.spineBorder-1-F4s1 {
+  @extend %threadChannelSpine !optional;
+}
 .chatHeaderBar-2fUORh {
   @extend %threadHeaderBar !optional;
 }
@@ -4147,9 +4060,6 @@ pre {
 }
 .active-3WMEyE {
   @extend %threadModalTabActive !optional;
-}
-.previewMessage-2g_aBv {
-  @extend %accessibilityMessagePreview !optional;
 }
 .hasThread-3h-KJV {
   @extend %messageHasThread !optional;
@@ -4459,6 +4369,15 @@ pre {
 }
 .headerBorder-jrk0Ic {
   @extend %forumHeaderBorder !optional;
+}
+.sortDropdown-hY93nR {
+  @extend %forumSortDropdown !optional;
+}
+.sortDropdownText-3smleu {
+  @extend %forumSortDropdownText !optional;
+}
+.textContentFooter-2JnNv8 {
+  @extend %forumContentFooter !optional;
 }
 .pill-3pRQlO {
   @extend %forumTag !optional;

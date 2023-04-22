@@ -33,19 +33,20 @@
 .editingContainer-1_nnqZ {
   background-color: transparent;
 }
-.premiumFeatureBorder-3vL7bn {
+.premiumFeatureBorder-1i95si {
 	background: hsla(0, 0%, 0%, .4);
 	border-color: hsl(302,100%,72.5%);
 }
-.background-3N0xBT {
+.premiumBackground-34OIdE {
 	background: transparent;
 }
 .upsellOverlayContainer-3NMgTS {
 	background: hsla(0, 0%, 0%, .4);
 	border-color: hsl(302,100%,72.5%);
 }
-.theme-dark .upsellOverlay-3sCO8V {
-	background: hsla(0, 0%, 0%, .4);;
+.theme-dark .upsellOverlay-3sCO8V,
+.upsellContainer-TwfTaF {
+	background: hsla(0, 0%, 0%, .4);
 }
 
 // USER SETTINGS CUSTOMIZATION
@@ -176,24 +177,22 @@
 
 // ACCESSIBILITY
 %accessibilityMessagePreview {
-  background-color: hsla(0, 0%, 0%, 0);
+  background-color: transparent;
 }
 
 // VOICE
 %themeDark {
-  %userSettingsVoice {
+  %micTest {
     %micTestContainer {
-      background-color: $main-color  !important;
+      background: $main-color  !important;
+      -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='yellow'%3E%3Cpath fill-rule='evenodd' d='M 4 2 C 2.895 2 2 2.895 2 4 L 2 16 C 2 17.54 3.667 18.502 5 17.732 C 5.619 17.375 6 16.715 6 16 L 6 4 C 6 2.895 5.105 2 4 2 Z'/%3E%3C/svg%3E");
     }
     %micTestProgress {
       background-color: hsla(0, 0%, 0%, 0.7);
     }
     %micTestNotches {
-      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='rgba(0,0,0,.8)'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
-    }
-    %inputSensitivitySliderBar {
-      &%inputSensitivitySpeaking {
-        background: $main-color;
+      rect {
+        fill: none;
       }
     }
   }
@@ -275,16 +274,5 @@
       background-color: hsla(0, 0%, 100%, 0.05);
       border: hsla(0, 0%, 100%, 0.07);
     }
-  }
-}
-.option-2eIyOn {
-  &:hover,
-  &:focus,
-  &.focused-ODgjnC {
-    background-color: hsla(0, 0%, 100%, 0.05);
-    border: hsla(0, 0%, 100%, 0.07);
-  }
-  &[aria-selected='true']:not(.option-2eIyOn.multi-1HXDiv) {
-    background-color: $main-color  !important;
   }
 }
