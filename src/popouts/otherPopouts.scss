@@ -1,72 +1,45 @@
-// EMOJI INFO POPOUT
-.popoutContainer-2wbmiM {
-  background-color: rgba(0, 0, 0, 0.8);
+// VC ACTIVITY STATUS POPOUT
+%vcActivityPopout,
+%vcSetActivityPopout {
+  background-color: cv('bg.general.popout');
 }
-.emojiSection-3QtaWO {
-  background-color: transparent;
-}
-.guildSection-2Zyzy8 {
-  background-color: transparent;
-}
-.loadingBackground-1p5N1j {
-  .loading-1lSwpg {
-    opacity: 0.3;
+%vcSetActivityPopoutIcon {
+  background-color: hsla(0, 0%, 100%, 0.07);
+  border-color: hsla(0, 0%, 100%, 0.09);
+  &:hover {
+    background-color: hsla(0, 0%, 100%, 0.07);
+    border-color: $hover-color;
   }
 }
-
-// CHAT TOOLBAR
-.toolbar-37BrJ5 {
-  background-color: hsla(0, 0%, 0%, 0.8);
-}
-.toolbar-37BrJ5::before {
-  border-top: 8px solid hsla(0, 0%, 0%, 0.8);
-}
-.active-136ioF,
-.hover-3OQb9Y:hover {
-  background-color: hsla(0, 0%, 100%, 0.05);
-}
-.icon-3g7qdA {
-  color: hsla(0, 0%, 100%, 0.7);
-}
-
-// STREAM POPOUT
-%themeDark {
-  %streamPopoutPreview {
-    background-color: hsla(0, 0%, 0%, 0.8);
+%vcSetActivityPopoutButton {
+  background-color: $main-color;
+  border-color: transparent;
+  &:hover {
+    background-color: $hover-color;
+    border-color: transparent;
   }
-  %streamPopoutPreviewContainer {
-    background-color: transparent;
-  }
-  %streamPopoutWatchButton {
-    border-color: $main-color;
-    color: hsla(0, 0%, 100%, 0.8);
-    &:not([disabled]):hover {
-      border-color: $hover-color;
-      color: #fff;
-    }
-  }
-}
-
-// STUDENT HUBS
-%hubPopoutSidebar {
-  background: transparent;
 }
 
 // LEAVE SERVER REASON
-.root-cw9rWQ {
-	background-color: transparent;
+%serverLeave {
+  background-color: transparent;
 }
-.problemInfo-1QppuA {
-  .option-1O-Hwt {
-    color: #fff;
-    background: hsla(0, 0%, 100%, .03);
-    border: 1px solid hsla(0, 0%, 100%, .05);
-    border-top: none;
-    &:first-child {
-      border-top: 1px solid hsla(0, 0%, 100%, .05);
-    }
+%serverLeaveOption {
+  color: #fff;
+  background: hsla(0, 0%, 100%, 0.03);
+  border: 1px solid hsla(0, 0%, 100%, 0.05);
+  border-top: none;
+  &:first-child {
+    border-top: 1px solid hsla(0, 0%, 100%, 0.05);
   }
-  &:hover  {
-    background: hsla(0, 0%, 100%, .06);
+  &:hover {
+    background: hsla(0, 0%, 100%, 0.06);
   }
+}
+
+// NITRO PROFILE PICTURE UPSELL
+/*right popout*/
+%sidebarPFPUpsell {
+  background: var(--background-overlay);
+  border-left: 5px solid $main-color;
 }
